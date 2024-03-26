@@ -85,7 +85,7 @@ At [slovink][ https://slovink.com/], we offer expert guidance, implementation su
 Here is an example of how you can use this module in your inventory structure:
 ```hcl
   module "vpn" {
-  source = "./../"
+  source = "https://github.com/slovink/terraform-aws-vpn.git?ref=v1.0.0"
 
   name                                      = local.name
   environment                               = local.environment
